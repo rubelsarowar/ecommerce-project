@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+ul,ol{
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+/*---header area start------*/
+
+#header{
+    background: #fffbf0;
+}
+.menus{
+    margin-left: auto;
+}
+.header-logo img{
+    width: 350px;
+    
+}
+.menus:hover{
+    color: #d1d1d1;
+    transition: all linear 0.3s;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.navbar-toggler {
+    font-size: 30px;
+    /* line-height: 1; */
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: box-shadow 0;
+    margin-top: 23px;
+}
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+.menu-head{
+    padding: 0 20px;
+}
+.menus{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #3b3b3b
+}
+/*--------header area edns--------*/
+
+.banner{
+    background: #fffbf0;
+    padding: 100px 0;
+}
+.banner-content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 80px;
+    color: #76C27E;
+}
+.banner-content h1 span{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-size: 80px;
+    line-height: 80px;
+    color: #363958;
+}
+.banner-content p{
+    font-size: 14px;
+    color: #3e3e3e;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 15px
+}
+.banner-buttons .fas{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.banner-buttons:hover{
+    color: #f3f3f3;
+}
+.banner-buttons{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 7px 20px;
+    background: #2A1E59;
+    text-align: right;;
+    border-radius: 10px;
+}
+.banner-image img{
+    width: 400px;
+    margin-top: -35px;
+    margin-left: 25px;
+}
+.header-send button:hover{
+    background-color: none;
+}
+.btn:hover{
+    color: white;
+}
+
+/*---banner area ends*/
+
+#third-section{
+    margin: 100px 0;
+}
+.third-box{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+}
+.box-img{
+    display: inline-block;
+}
+.box-img img{
+    height: 76px;
+    width: 79px;
+    display: inline-block
+}
+.box-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+}
+.box-contentp p{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #3E3E3E;
+}
+.box-content{
+    display: inline-block;
+    margin-left: 10px;
+}
+.right-image img{
+    width: 599px;
+    height: 350px;
+    margin-top: 20px;
+}
+/*-------third area ends*/
+
+
+#product{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card-heading h2{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+    margin-bottom: 50px;
+}
+.product-box{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    position: relative;
+}
+.product-box img {
+    width: 100%;
+    padding: 28px 60px;
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+.card-image-top{
+    width: 50px;
+}
+.products-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #363958;
+    margin-bottom: 20px;
+}
+.products-buttons{
+    text-align: right;
+}
+.product-contents{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #3E3E3E;
+    padding-bottom: 20px;
+}
+.card-buttons .fas{
+    margin-right: 10px;
+    font-size: 16px;
+}
+.card-buttons:hover{
+    color: #f3f3f3;
+}
+.card-buttons{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #2A1E59;
+    text-align: right;
+    position: absolute;
+    bottom: 25px;
+    right: 35px;
+    border-radius: 10px;
+}
+
+.product-price p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    margin-left: 15px;
+    color: #76C27E;
+    display: inline-block;
+}
+
+
+@media (max-width: 991.98px) { 
+
+    .third-box{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-box img {
+    width: 100%;
+    padding: 15px 15px;
+    background: #f1f1f1;
+    border-radius: 20px;
+}
+    .banner-image img {
+    width: 400px;
+    margin-top: 0px;
+     margin-left: 0px; 
+}
+    
+}
